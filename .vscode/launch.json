@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Node.js",
+      "type": "node",
+      "request": "launch",
+      "program": "D:/Projetos/Sistema-de-Gerenciamento-de-Estoque/Backend/server.js",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Iniciar o Chrome em relação a localhost",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/Frontend",
+      "sourceMaps": true
+    }
+  ]
+}
